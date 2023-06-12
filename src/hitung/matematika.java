@@ -11,6 +11,10 @@ public class matematika {
        this.bil1 = bil1;
        this.bil2 = bil2;
    }
+
+    matematika() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    //membuat method setpenjumlahan
    double setpenjumlahan(){
        return bil1 + bil2;   
